@@ -8,7 +8,7 @@ int main(){
     scanf("%f", &F);
 
 
-    C = (F - 32) * (5/9);
+    C = (F - 32) * 5/9;
 
     printf("En celsius son: %f", C);
 
