@@ -19,8 +19,8 @@ int main(){
     varA = varB;
     varB = varAux;
 
-    printf("\n Ahora el valor de A es: %i", varA);
-    printf("\n Ahora el valor de B es: %i", varB);
+    printf("\n Ahora el valor intercambiado de A es: %i", varA);
+    printf("\n Ahora el valor intercambiado de B es: %i", varB);
 
 
     return 0;
