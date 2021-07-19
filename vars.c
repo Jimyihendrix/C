@@ -10,16 +10,16 @@ int main(){
 
     printf("ingresa el valor entero A: ");
     scanf("%i", &integerA);
+    printf("El entero A es: %i", integerA);
 
     printf("\nIngresa el valor del float A: ");
     scanf("%f", &floatA);
+    printf("\nEl float A es: %f", floatA);
 
     printf("\nIngresa el valor del char A: ");
-    scanf(" %c", &letterA);
+    scanf("%c", &letterA);
+    printf("\nEl valor del char A es: %c", letterA);
 
-    printf("El entero A es: %i", integerA);
-    printf("El float A es: %f", floatA);
-    printf("El valor del char A es: %c", letterA);
 
     return 0;
 }
