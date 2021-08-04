@@ -7,7 +7,7 @@ int main(){
     
     printf("Escribe 1 si decides andar por el sendero hasta la casa: \n");
     printf("Escribe 2 si decides ir a la isla: \n");
-    printf("Escribe 3 si decides pedir ayuda por radio:  \n");
+    printf("Escribe 3 si decides pedir ayuda por radio:\n");
 
     scanf("%i", &option);
 
