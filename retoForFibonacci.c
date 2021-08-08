@@ -13,19 +13,20 @@ int main(){
     scanf("%i",&limSup);
     printf("\n");
     
-    while(i <= limSup){
+    /*while(i <= limSup){
         result = accumulator + store;
-        printf("%i, ", result);
         accumulator = store;
         store = result;
+        printf("%i, ", result);
         i++;
-    }
+    }*/
 
-    //for(int i = 1; i <= limiteSuperior; i = acumulador){
-    //    acumulador = i + i;
-    //    resultado = i + acumulador;
-    //    printf("%i\n", resultado);
-    //}
+    for(int i = 1; i <= limSup; i++){
+        result = accumulator + store;
+        accumulator = store;
+        store = result;
+        printf("%i, ", result);
+    }
 
     return 0;
 }
